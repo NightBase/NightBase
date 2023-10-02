@@ -42,4 +42,4 @@ Nightbase is all in one database as a service solution. It is a REST API that al
 
 <br><br>
 
-[#license]: https://github.com/NightBase/NightBase/blob/main/LICENSE
+[license]: https://github.com/NightBase/NightBase/blob/main/LICENSE
