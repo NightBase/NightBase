@@ -1,0 +1,22 @@
+_format_version: "3.0"
+services:
+  - name: auth-service
+    url: http://authservice:5000/v1/auth
+    routes:
+      - name: authservice-route
+        paths:
+          - /v1/auth
+
+  - name: user-service
+    url: http://userservice:5000/v1/user
+    routes:
+      - name: userservice-route
+        paths:
+          - /v1/user
+
+plugins:
+  - name: rate-limiting
+    service: auth-service
+    config:
+      minute: 5
+      policy: local
