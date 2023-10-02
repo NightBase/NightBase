@@ -7,7 +7,7 @@
 </div>
 <br>
 
-Nightbase is all in one database as a service solution. It is a REST API that allows you to create, read, update and delete data from a database. It is built with Node.js, Express.js and MongoDB. It is a fully functional API that can be used to build a full stack application.
+Nightbase is all in one batteries included database as a service solution. It is a REST API that allows you to create, read, update and delete data from a database. It is built with Node.js, Express.js and MongoDB. It is a fully functional API that can be used to build a full stack application.
 
 <br><br>
 
