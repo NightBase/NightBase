@@ -26,6 +26,8 @@ Nightbase is all in one database as a service solution. It is a REST API that al
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/en/)
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
 ### Clone
 
